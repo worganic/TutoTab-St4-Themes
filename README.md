@@ -1,4 +1,4 @@
-# WorganicTabV1
+# WorganicTabV1 / V4 - Thèmes (white/black)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
@@ -14,14 +14,35 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Get clone 
+> https://github.com/worganic/TutoTab-St3-create.git
+> npm install
+> cd .\worganic-tab-v1\
+> ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project :
+V4 - Mise en place de thèmes (CSS : light/dark)
 
-## Running end-to-end tests
+    - Création des fichiers style : src/_themes.scss
+    - Modification du fichier src/style.scss
+        @import "./_themes.scss";
+    - Ajout code de test dans home.component.html et .ts
+    - Ajout style dans la page index?html :
+        >> <body data-theme="light">
+    - Mise en place du switch pour changer le type de style.
+        home.component.html et home.component.ts
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Infos plus :
 
-## Further help
+## Historique :
+Avant -> v3 : Mise en place de la structure des pages + environnement
+Après -> v5 -> Mise en place design form (page:design)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Ressource :
+    - Thèmes :
+    https://codebeyondlimits.com/articles/angular-theming-how-to-create-a-dynamic-theme-switcher-for-light-and-dark-mode
+
+## Abouts
+Project créé par Johann Loreau
+create le 2023/07/29
+Le project sera voué à évolué suivant les remarques et conseils des visiteurs.
